@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="labradorRolando_Assignment_11.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+		<h3 >REGISTRATION</h3>
+		<form id="registration_form">
+			<div>
+                <label>
+					First Name
+				</label>
+				<input type="text" id="form_fname" name="" required="">
+				<span class="error_form" id="fname_error_message"></span>
+				
+			</div>
+			<div>
+                <label>
+					Second Name
+				</label>
+				<input type="text" id="form_sname" name="" required="">
+				<span class="error_form" id="sname_error_message"></span>
+			</div>
+			<div>
+                <label>Email Address</label>	
+				<input type="email" id="form_email" name="" required="">
+				<span class="error_form" id="email_error_message"></span>
+				
+			</div>
+            <h3>Create Password</h3>
+			<div>
+                <label>Password</label>	
+				<input type="password" id="form_password" name="" required="">
+				<span style="background-color: brown; " class="error_form" id="password_error_message">Please Ensure you meet Password Criteria</span>
+			</div>
+			<div>
+                <label>Re-Enter Password</label>
+				<input type="password" id="form_retype_password" name="" required="">
+				<span style="background-color: brown" class="error_form" id="retype_password_error_message">Password Does Not Match</span>
+			</div>
+            <p>Password should contain at least 1 <br>lowercase, 1 uppercase <br>, and special characters ()^@&#*$+%= <br> minimum of 12 chars in length</p>
+			<!-- <button class="register"type="submit" value="Submit" name="">Submit</button> -->
+			<input type="submit" class="register" value="Submit" name="">
+            <p class="message" id="">Message</p>
+		</form>
+       
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="labradorRolando_Assignment_11.js"></script>
+</body>
+</html>

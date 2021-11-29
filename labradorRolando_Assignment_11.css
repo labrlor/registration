@@ -1,0 +1,91 @@
+#nav{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+#logo{
+    justify-content: start;
+    margin: 10px 10px 10px 10px;
+    border:black solid 2px;
+    background-color:rgb(252, 230, 189);
+
+
+}
+#description{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    position:relative;
+    top:25px;
+}
+
+#assignmentTitle{
+    justify-content:center;
+    border: solid 2px;
+    background-color:rgb(211, 173, 179);
+    margin:10px;
+    padding:5px;
+}
+
+#jquery{
+    border: solid 2px;
+    background-color: rgb(211, 253, 248);
+    margin:10px;
+    padding:5px;
+}
+#createCaptcha{
+    border: solid 2px;
+    background-color: rgb(223, 255, 43);
+    margin:10px;
+    padding:5px;
+}
+
+#mid{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    top:50px;
+}
+#genratedCaptcha{
+    height:100px;
+    width:300px;
+    background-color:rgb(7, 184, 207);
+    margin:30px 30px 30px 30px;
+    color:black;
+    text-align:center;
+    font-size:30px;
+    letter-spacing:1px
+    
+}
+
+#inp{
+    background-color:rgb(252, 230, 189);
+    height:30px;
+    width:200px;
+}
+
+
+.container{
+    background-color:rgb(73, 240, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom:-50px;
+    margin: auto;
+    width:50%;
+
+}
+.container h3, .container p{
+    font-style:italic;
+}
+.container input, .message{
+    
+        float: right;
+        clear: both;
+}
+.register{
+    background-color:rgb(230, 13, 13);
+    border: solid 1px;
+color:white}
